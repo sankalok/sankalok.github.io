@@ -16,6 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! My name is Sankalok (pronounced Shaun-ko-lock) and I am an Incoming Engineer at The Theory Lab @ Noah's Ark, Huawei HKRC. 
+Hi! My name is Sankalok (pronounced Shaun-ko-lock) and I am an Incoming Engineer at Theory Lab @ Noah's Ark, Huawei HKRC. 
 
-I am broadly interested in Natural Language Processing and Computation Biostatistics/Survival Analysis. Previously, I was a Junior Research Scientist at B. Y. Quantitative Medicine, advised by <a href="https://www.polyu.edu.hk/en/hti/people/academic-staff/prof-yung-benjamin-ym/">Prof. Benjamin Yung</a>. My undergraduate thesis was on analysis of Hong Kong's Legal Judgments, supervised by <a href="https://ikekonglp.github.io/">Prof. Lingpeng Kong</a>. I am also working closely with <a href="https://leuchine.github.io/">Prof. Qi Liu</a> on solving Data Science problems using LLMs. 
+I am broadly interested in Natural Language Processing and Computational Biostatistics/Survival Analysis. Previously, I was a Junior Research Scientist at B. Y. Quantitative Medicine, advised by <a href="https://www.polyu.edu.hk/en/hti/people/academic-staff/prof-yung-benjamin-ym/">Prof. Benjamin Yung</a>. My undergraduate thesis was on analysis of Hong Kong's Legal Judgments, supervised by <a href="https://ikekonglp.github.io/">Prof. Lingpeng Kong</a>. I am also working closely with <a href="https://leuchine.github.io/">Prof. Qi Liu</a> on solving Data Science problems using LLMs. 
