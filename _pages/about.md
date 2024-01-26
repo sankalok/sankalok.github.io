@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Incoming Engineer @ Theory Lab, Noah's Ark Lab, Huawei HKRC | BEng in Computer Science, University of Hong Kong, 2023
 
 profile:
   align: right
