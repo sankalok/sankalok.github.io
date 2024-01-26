@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be joining Huawei HKRC as an Engineer @ Theory Lab! 
+🚀🎉 I will be joining Huawei HKRC as an Engineer @ Theory Lab! 
