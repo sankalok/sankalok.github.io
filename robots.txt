@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://sankalok.github.io/sitemap.xml
