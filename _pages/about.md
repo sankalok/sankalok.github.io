@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: Incoming Engineer @ Theory Lab, Noah's Ark Lab, Huawei HKRC | BEng in Computer Science, University of Hong Kong, 2023
+subtitle: BEng in Computer Science, University of Hong Kong, 2023
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
