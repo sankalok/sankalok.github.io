@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /cv/
+permalink: /assets/pdf/Sankalok_Sen_RESUME.pdf
 title: cv
 nav: true
 nav_order: 5
