@@ -67,7 +67,7 @@ github_username: sankalok # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: sankalok-sen-31a359196
 telegram_username: # your Telegram user name
 scholar_userid: NlxRNrUAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -100,7 +100,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  Email me at <strong>ssen2001 [at] connect [dot] hku [dot] hk</strong> to connect!
+  To connect, email me at <strong>ssen2001 [at] connect [dot] hku [dot] hk</strong> 🐱
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
