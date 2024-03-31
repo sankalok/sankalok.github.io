@@ -7,7 +7,7 @@ subtitle: BEng(CompSc) @ HongKongU, 2023
 profile:
   align: right
   image: 62195537.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
 
 news: true # includes a list of news items
