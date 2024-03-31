@@ -8,7 +8,7 @@ profile:
   align: right
   image: 62195537.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
+  more_info: > Connect at ssen2001[at]connect[dot]hku[dot]hk!
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
