@@ -21,6 +21,6 @@ Hi! My name is Sankalok (pronounced Shaun-ko-lock).
 I am broadly interested in Natural Language Processing and Computational Biostatistics/Survival Analysis. Currently, I am a Research Engineer in the Theory Lab @ Huawei HKRC, working in the Systems Theory team. 
 
 
-"I will be the last one \n
-So I'll leave a light on \n
+"I will be the last one \\
+So I'll leave a light on \\
 Let there be no darkness, in your heart." - _Monsters_, **James Blunt**
