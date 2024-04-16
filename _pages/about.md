@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: BEng(CompSc) @ HongKongU, 2023
+subtitle: BEng(CompSc) @ HongKongU, 2023 | ssen2001@connect.hku.hk
 
 profile:
   align: right
@@ -18,6 +18,9 @@ social: true # includes social icons at the bottom of the page
 
 Hi! My name is Sankalok (pronounced Shaun-ko-lock). 
 
-I am broadly interested in Natural Language Processing and Computational Biostatistics/Survival Analysis. Currently, I am a Research Engineer in the Theory Lab @ Huawei HKRC working on Similarity Search Optimization for High Dimensional Vectors in the Systems Theory team. Previously, I was a Junior Research Scientist at B. Y. Quantitative Medicine, advised by <a href="https://www.byqmed.com/index.php/core-team/">Prof. Benjamin Yung</a>. 
+I am broadly interested in Natural Language Processing and Computational Biostatistics/Survival Analysis. Currently, I am a Research Engineer in the Theory Lab @ Huawei HKRC, working in the Systems Theory team. 
 
-Connect at ssen2001[at]connect[dot]hku[dot]hk!
+
+"I will be the last one
+So I'll leave a light on
+Let there be no darkness, in your heart." - _Monsters_, **James Blunt**
