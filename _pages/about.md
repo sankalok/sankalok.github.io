@@ -24,4 +24,5 @@ I am broadly interested in Natural Language Processing and Computational Biostat
 <br />
 
 "For less than a second, our lives will collide; <br/>
-The endless suspended, the door open wide. - _The Book of Longing_, **Leonard Cohen**
+&nbsp; The endless suspended, the door open wide. 
+&emsp; - _The Book of Longing_, **Leonard Cohen**
