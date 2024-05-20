@@ -20,7 +20,8 @@ Hi! My name is Sankalok (pronounced Shaun-ko-lock).
 
 I am broadly interested in Natural Language Processing and Computational Biostatistics/Survival Analysis. Currently, I am a Research Engineer in the Theory Lab @ Huawei HKRC, working in the Systems Theory team. 
 
+<br />
+<br />
 
-"I will be the last one <br />
-So I'll leave a light on <br />
-Let there be no darkness, in your heart." - _Monsters_, **James Blunt**
+"For less than a second, our lives will collide; <br/>
+The endless suspended, the door open wide. - _The Book of Longing_, **Leonard Cohen**
