@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi! My name is Sankalok (pronounced Shaun-ko-lock). 
 
-I am broadly interested in Natural Language Processing and Computational Biostatistics/Survival Analysis. Currently, I am a Research Engineer in the Theory Lab @ Huawei HKRC, working in the Systems Theory team. 
+I am broadly interested in Natural Language Processing and Computational Biostatistics/Survival Analysis. Currently, I am a Research Engineer in the Theory Lab @ Huawei HKRC. 
 
 <br />
 <br />
