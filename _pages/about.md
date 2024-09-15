@@ -16,13 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! My name is Sankalok (pronounced Shaun-ko-lock). 
-
-I am broadly interested in Natural Language Processing and Computational Biostatistics/Survival Analysis. Currently, I am a Research Engineer in the Theory Lab @ Huawei HKRC. 
+Hi! My name is Sankalok (pronounced Shaun-ko-lock). Currently, I am a Research Engineer in the Theory Lab @ Huawei HKRC. 
 
 <br />
 <br />
-
-"For less than a second, our lives will collide; <br/>
-The endless suspended, the door open wide." <br/>
-&emsp; - _The Book of Longing_, **Leonard Cohen**
