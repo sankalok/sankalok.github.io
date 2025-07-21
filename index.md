@@ -1,1 +1,6 @@
-## <span style="color:rgb(0,204,204);"> Sankalok Sen </span>
+---
+layout: default
+title: Sankalok Sen
+---
+
+## Sankalok Sen
