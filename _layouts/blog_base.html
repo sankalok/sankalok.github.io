@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title}}</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:,i,b,bi");
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #333;
+            --link-color: #005eff;
+            --max-width: 750px;
+            --font-stack: "IBM Plex Sans", sans-serif;
+        }
+        
+        body {
+            background-color: #f0f6ff;
+            color: var(--text-color);
+            font-family: var(--font-stack);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        .container {
+            background-color: var(--bg-color);
+            max-width: var(--max-width);
+            margin: 2rem auto;
+            padding: 0 1rem;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        
+        header {
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 1rem;
+            text-align: center;
+        }
+        
+        h1, h2, h3 {
+            line-height: 1.2;
+        }
+        
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        article {
+            margin-bottom: 3rem;
+        }
+        
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eaeaea;
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+        
+        .markdown-content {
+            font-size: 0.95rem;
+        }
+        
+        .markdown-content p {
+            margin-bottom: 1.5rem;
+        }
+        
+        .markdown-content pre {
+            background: #f0f0f0;
+            padding: 1rem;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        
+        .markdown-content code {
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 0.95em;
+        }
+    </style>
+<!--
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [ ['$','$'], ['\\(','\\)'] ],  // Inline: $...$ and \(...\)
+          displayMath: [ ['$$','$$'], ['\\[','\\]'] ] // Block: $$...$$ and \[...\]
+        }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+-->
+</head>
+<body>
+    <div class="container">
+        <header>
+            
+            <h1>{{ page.title | default: "blog" }}</h1>
+<!--             <nav>
+                <a href="/">home</a> •
+                <a href="/assets/cv.pdf">cv</a> •
+                <a href="https://github.com/sankalok">github</a> •
+                <a href="https://scholar.google.com/citations?user=NlxRNrUAAAAJ&hl=en">google scholar</a>
+            </nav> -->
+<!--             <nav>
+                <a href="/">Home</a> •
+                <"a href="/about">About</a> •
+                <a href="/archive">Archive</a>
+            </nav> -->
+        </header>
+        
+        <main class="markdown-content">
+            {{ content }}
+        </main>
+        
+        <footer>
+            <p>© 2025 • 
+            Sankalok Sen •
+            ^_^</p>
+        </footer>
+    </div>
+</body>
+</html>
