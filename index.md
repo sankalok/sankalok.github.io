@@ -5,7 +5,17 @@ title: Sankalok Sen
 
 ## About
 
-Hello, my name is Sankalok (pronounced shaun-ko-lock). I am a Research Engineer in the System Theory Group @ Huawei's Theory Lab in Hong Kong. I like thinking deeply about complicated problems, writing down and discussing possible solutions with colleagues, and tinkering them out in modern Python and C++20. I also try to publish once in a while. 
+Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply about complicated problems, writing down and discussing possible solutions with colleagues, and irritating computers/servers and fully using up all of the available resources. I also try to publish once in a while. 
+
+## Experience
+
+I am currently a Research Engineer in the System Theory Group @ Huawei's Theory Lab in Hong Kong since early 2024. Currently, I mostly spend my time multiplying matrices to build fancy applications (LLMs, VLMs, OCR models, and other pleasant stuff) in Python. Last year, I sorted and manipulated numbers to build fancy applications (in-memory and on-disk vector search) in C++. I also like making them run fast. In fact, our team managed to make it run so fast its now among the top 3 algorithms in the ANN benchmarks! (check out <a href="https://github.com/erikbern/ann-benchmarks">kgn</a> :D)
+
+Previously I interned and worked full-time (my first job) as a Junior Research Scientist at B. Y. Quantitative Medicine (a cancer research start-up). During my internships, I tried making sense of different types of cross-platform High Grade Serous Ovarian Cancer datasets. During my stint there as a full-timer, I tried to model these aforementioned datasets to make them make sense (for chemo-resistivity prediction).
+
+Among my not so recent internships I had interned as an AI and Finance Research Intern at AskLora (great people, great culture, learnt a lot of practical data science that I still use to this day) where I tried to process financial data into fancy schematic forms for database storage (like ScyllaDB); and as a MITACS Globalink Research Intern at Saint Mary's University in Nova Scotia, where I got my initial exposure to Natural Language Processing principles in general when I attempted to dissect Corporate Social Responsibility Reports for the Fortune 500. 
+
+A long long time ago, I was a Teaching Assistant at my alma-mater (The University of Hong Kong, where I somehow graduated with a Bachelor's in Computer Science while picking up a minor in Statistics) where I taught Python to freshmen. For my undergraduate thesis, I had worked in building some nice (looking back, pretty okayish rather) computational linguistics algorithms to help understand Hong Kong Legal Judgments. 
 
 ## Publications
 
