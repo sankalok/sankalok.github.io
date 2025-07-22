@@ -9,20 +9,21 @@ title: blog
 
 <div style="width: 48%;">
 
-### **Left Column**
-- Item 1  
-- Item 2  
-- Item 3  
+<ul>
+  <l>Item 1</l>
+  <l>Item 2</l>
+  <l>Item 3</l>
+</ul>
 
 </div>
 
 <div style="width: 48%;">
 
-### **Right Column**
-- Item A  
-- Item B  
-- Item C  
-
+<ul>
+  <l>Item A</l>
+  <l>Item B</l>
+  <l>Item C</l>
+</ul>
 </div>
 
 </div>
