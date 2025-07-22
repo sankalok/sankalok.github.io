@@ -1,6 +1,6 @@
 ---
 layout: blog_base
-title: blog
+title: Sankalok Sen
 ---
 
 ## Blog
