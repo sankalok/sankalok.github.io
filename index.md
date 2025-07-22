@@ -1,6 +1,6 @@
 ---
 layout: default
-title: sankalok sen
+title: Sankalok Sen
 ---
 
 ## About
