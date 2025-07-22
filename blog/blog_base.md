@@ -6,22 +6,4 @@ title: Sankalok Sen
 ## Blog
 
 
-<div style="display: flex; justify-content: space-between;">
-
-<div style="width: 17%;">
-
-Item 1 <br>
-Item 2 <br>
-Item 3 <br>
-
-</div>
-
-<div style="width: 81%;">
-
-Item A <br>
-Item B <br>
-Item C <br>
-
-</div>
-
-</div>
+Like all things in life, this is a work in progress. Stay tuned! :D
