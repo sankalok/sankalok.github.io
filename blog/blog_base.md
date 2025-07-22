@@ -3,27 +3,25 @@ layout: blog_base
 title: blog
 ---
 
-## blog
+## Blog
+
 
 <div style="display: flex; justify-content: space-between;">
 
-<div style="width: 20%;">
+<div style="width: 17%;">
 
-<ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-</ul>
+Item 1 <br>
+Item 2 <br>
+Item 3 <br>
 
 </div>
 
-<div style="width: 78%;">
+<div style="width: 81%;">
 
-<ul>
-  <li>Item A</li>
-  <li>Item B</li>
-  <li>Item C</li>
-</ul>
+Item A <br>
+Item B <br>
+Item C <br>
+
 </div>
 
 </div>
