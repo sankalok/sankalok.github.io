@@ -3,11 +3,11 @@ layout: default
 title: sankalok sen
 ---
 
-## about
+## About
 
 Hello, my name is Sankalok (pronounced shaun-ko-lock). I am a Research Engineer in the System Theory Group @ Huawei's Theory Lab in Hong Kong. I like thinking deeply about complicated problems, writing down and discussing possible solutions with colleagues, and tinkering them out in modern Python and C++20. I also try to publish once in a while. 
 
-## publications
+## Publications
 
 <ol>
   <li>
