@@ -10,9 +10,9 @@ title: blog
 <div style="width: 48%;">
 
 <ul>
-  <l>Item 1</l>
-  <l>Item 2</l>
-  <l>Item 3</l>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <l>Item 3</li>
 </ul>
 
 </div>
@@ -20,9 +20,9 @@ title: blog
 <div style="width: 48%;">
 
 <ul>
-  <l>Item A</l>
-  <l>Item B</l>
-  <l>Item C</l>
+  <li>Item A</li>
+  <li>Item B</li>
+  <li>Item C</li>
 </ul>
 </div>
 
