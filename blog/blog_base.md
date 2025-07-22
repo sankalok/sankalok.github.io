@@ -7,7 +7,7 @@ title: blog
 
 <div style="display: flex; justify-content: space-between;">
 
-<div style="width: 48%;">
+<div style="width: 7%;">
 
 <ul>
   <li>Item 1</li>
@@ -17,7 +17,7 @@ title: blog
 
 </div>
 
-<div style="width: 48%;">
+<div style="width: 92%;">
 
 <ul>
   <li>Item A</li>
