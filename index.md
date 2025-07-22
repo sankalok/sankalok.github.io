@@ -25,6 +25,6 @@ Proceedings of International Conference of Undergraduate Students, SCRS (ICUS), 
   </li>
 </ol>
 
-**_PS:_** Currently, life revolves around $$\beta = (X.t X)^{-1}(X.t Y)$$. ^~^
+**_PS:_** Currently, life revolves around $\beta = (X.t X)^{-1}(X.t Y)$. ^~^
 
 **_Disclaimer:_** Opinions are my own and do not reflect those of my employer. 
