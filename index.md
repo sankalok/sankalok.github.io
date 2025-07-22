@@ -7,7 +7,6 @@ title: sankalok sen
 
 Hello, my name is Sankalok (pronounced shaun-ko-lock). I am a Research Engineer in the System Theory Group @ Huawei's Theory Lab in Hong Kong. I like thinking deeply about complicated problems, writing down and discussing possible solutions with colleagues, and tinkering them out in modern Python and C++20. I also try to publish once in a while. 
 
-
 ## <span style="color:#005eff">publications</span>
 
 <ol>
@@ -25,6 +24,5 @@ Proceedings of International Conference of Undergraduate Students, SCRS (ICUS), 
   </li>
 </ol>
 
-**_PS:_** Currently, life revolves around $\beta = (X.t X)^{-1}(X.t Y)$. ^~^
-
+**_PS:_** Currently, life revolves around $\beta = (X^t X)^{-1}(X^t Y)$. ^~^ </br>
 **_Disclaimer:_** Opinions are my own and do not reflect those of my employer. 
