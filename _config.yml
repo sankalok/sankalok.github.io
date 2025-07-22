@@ -1,4 +1,6 @@
 title: sankalok sen
-author:
-  name: sankalok
-  email: ssen2001@connect.hku.hk
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
