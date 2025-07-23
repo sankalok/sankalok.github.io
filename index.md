@@ -5,11 +5,11 @@ title: Sankalok Sen
 
 ## About
 
-Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply about complicated problems, writing down and discussing possible solutions with colleagues, and irritating computers/servers and fully using up all of the available resources. I also try to publish once in a while. 
+Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply about complicated problems, writing down and discussing possible solutions with colleagues, and tinkering with computers/servers while fully using up all of available resources. I also try to publish once in a while. 
 
 ## Experience
 
-I am currently a Research Engineer in the System Theory Group @ Huawei's Theory Lab in Hong Kong since early 2024. Currently, I mostly spend my time multiplying matrices to build fancy applications (LLMs, VLMs, OCR models, and other pleasant stuff) in Python. Last year, I sorted and manipulated numbers to build fancy applications (in-memory and on-disk vector search) in C++. I also like making them run fast. In fact, our team managed to make it run so fast its now among the top 3 algorithms in the ANN benchmarks! (check out <a href="https://github.com/erikbern/ann-benchmarks">kgn</a> :D)
+Since early 2024, I am a Research Engineer in the System Theory Group @ Huawei's Theory Lab in Hong Kong. Currently, I mostly spend my time multiplying matrices to build fancy applications (LLMs, VLMs, OCR models, all of the fancy-schmancy stuff for B2B products) in Python. Last year, I sorted and manipulated numbers to build fancy applications (In-memory and On-disk Vector Search for Cloud and Terminal Storage) in C++. I also like making them run fast. In fact, our team managed to make it run so fast its now among the top 3 algorithms in the ANN benchmarks! (check out <a href="https://github.com/erikbern/ann-benchmarks">kgn</a> :D)
 
 Previously I interned and worked full-time (my first job) as a Junior Research Scientist at B. Y. Quantitative Medicine (a cancer research start-up). During my internships, I tried making sense of different types of cross-platform High Grade Serous Ovarian Cancer datasets. During my stint there as a full-timer, I tried to model these aforementioned datasets to make them make sense (for chemo-resistivity prediction).
 
