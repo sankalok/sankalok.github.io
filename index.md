@@ -19,11 +19,10 @@ I work with Data and LLMs.
 Tabular Tasks in Data Science with Table-Specific Pretraining</a>, <i>In IEEE Transactions of Knowledge and Data Engineering (TKDE), Volume 38, Issue 6, June 2026</i>.
   </li>
   <li>
-    Srinjoy Bhuiya, Ayushman Kumar, and <b>Sankalok Sen</b>, <a href='https://arxiv.org/pdf/2208.03437'>Exploring the Effects of Data Augmentation for Drivable Area Segmentation</a>, <i>In SCRS
-Proceedings of International Conference of Undergraduate Students, SCRS (ICUS), India, 2023</i>.
+    <b>Sankalok Sen</b>, <a href='https://arxiv.org/pdf/2305.02558'>Analyzing Hong Kong’s Legal Judgments from a Computational Linguistics point-of-view</a>, <i>In arXiv, May 2023</i>. <b>[Undergraduate Thesis]</b>
   </li>
   <li>
-    <b>Sankalok Sen</b>, <a href='https://arxiv.org/pdf/2305.02558'>Analyzing Hong Kong’s Legal Judgments from a Computational Linguistics point-of-view</a>, <i>Undergraduate Thesis, 2023</i>.
+    Srinjoy Bhuiya, Ayushman Kumar, and <b>Sankalok Sen</b>, <a href='https://arxiv.org/pdf/2208.03437'>Exploring the Effects of Data Augmentation for Drivable Area Segmentation</a>, <i>In arXiv, August 2022</i>.
   </li>
 </ol>
 
