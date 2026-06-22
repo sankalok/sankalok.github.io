@@ -15,9 +15,8 @@ I work with Data and LLMs.
 
 <ol>
   <li>
-    Yazheng Yang, Yuqi Wang, Yaxuan Li, <b>Sankalok Sen</b>, Lei Li, Lin Qiu and Qi Liu, <a href='https://arxiv.org/pdf/2403.20208'>Unlock the Potential of Large Language Models for Predictive
-Tabular Tasks in Data Science with Table-Specific Pretraining</a>, <i>In Review: IEEE Transactions of Knowledge and Data Engineering (TKDE),
-2025</i>.
+    Yazheng Yang, Yuqi Wang, Yaxuan Li, <b>Sankalok Sen</b>, Lei Li, Lin Qiu and Qi Liu, <a href='https://ieeexplore.ieee.org/abstract/document/11433012'>Unlock the Potential of Large Language Models for Predictive
+Tabular Tasks in Data Science with Table-Specific Pretraining</a>, <i>In IEEE Transactions of Knowledge and Data Engineering (TKDE), Volume 38, Issue 6, June 2026</i>.
   </li>
   <li>
     Srinjoy Bhuiya, Ayushman Kumar, and <b>Sankalok Sen</b>, <a href='https://arxiv.org/pdf/2208.03437'>Exploring the Effects of Data Augmentation for Drivable Area Segmentation</a>, <i>In SCRS
