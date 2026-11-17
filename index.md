@@ -102,9 +102,18 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
   <p class="role-line"><span class="role">BEng in Computer Science, minor in Statistics</span><span class="when">Sep 2019 – Jun 2023</span></p>
   <ul class="points">
     <li><strong>Teaching Assistant:</strong> COMP1117 / ENGG1330, Introduction to Programming in Python, Fall 2020 and Spring 2021.</li>
-    <li><strong>Awards:</strong> HKU Entrance Scholarship for Outstanding Academic Talents (USD 21,000); HKU Entrance Foundation Scholarship (USD 63,000); HKU Dean’s Fund for Research (USD 3,200); HKU-CS Research Scholarship (USD 2,300); MITACS Globalink Research Scholarship (USD 2,200).</li>
   </ul>
 </div>
+
+## Awards
+
+<ul class="honors">
+  <li>HKU Entrance Scholarship for Outstanding Academic Talents (USD 21,000)</li>
+  <li>HKU Entrance Foundation Scholarship (USD 63,000)</li>
+  <li>HKU Dean’s Fund for Research (USD 3,200)</li>
+  <li>HKU-CS Research Scholarship (USD 2,300)</li>
+  <li>MITACS Globalink Research Scholarship (USD 2,200)</li>
+</ul>
 
 ## Publications
 

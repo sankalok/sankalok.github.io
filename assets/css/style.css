@@ -258,6 +258,23 @@ a:focus-visible {
     margin-bottom: 0;
 }
 
+.honors {
+    margin: 0;
+    padding-left: 1.15rem;
+    font-size: 0.72rem;
+    color: var(--text);
+}
+
+.honors li {
+    margin: 0 0 0.42rem;
+    padding: 0;
+    line-height: 1.55;
+}
+
+.honors li:last-child {
+    margin-bottom: 0;
+}
+
 .pubs {
     list-style: none;
     margin: 0;
