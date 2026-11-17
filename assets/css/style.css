@@ -186,10 +186,25 @@ a:focus-visible {
 .job-head {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     gap: 0.2rem 1rem;
     margin-bottom: 0.35rem;
+}
+
+.job-head h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    min-width: 0;
+}
+
+.org-logo {
+    display: block;
+    width: 1.7rem;
+    height: 1.7rem;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 .job-place {

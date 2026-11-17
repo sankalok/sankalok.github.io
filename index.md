@@ -11,7 +11,7 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
 
 <div class="job">
   <div class="job-head">
-    <h3>Huawei Technologies</h3>
+    <h3><img class="org-logo" src="{{ '/assets/logos/huawei.svg' | relative_url }}" alt="" width="28" height="28"> Huawei Technologies</h3>
     <span class="job-place">Hong Kong</span>
   </div>
   <p class="role-line"><span class="role">L15 • Engineer A</span><span class="team">Interdisciplinary Technology Innovation Center</span><span class="when">Dec 2026 – Present</span></p>
@@ -27,7 +27,7 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
 
 <div class="job">
   <div class="job-head">
-    <h3>B.Y. Quantitative Medicine</h3>
+    <h3><img class="org-logo" src="{{ '/assets/logos/byq.png' | relative_url }}" alt="" width="28" height="28"> B.Y. Quantitative Medicine</h3>
     <span class="job-place">Hong Kong</span>
   </div>
   <p class="role-line"><span class="role">Junior Research Scientist</span><span class="when">Aug 2023 – Feb 2024</span></p>
@@ -41,7 +41,7 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
 
 <div class="job">
   <div class="job-head">
-    <h3>The University of Hong Kong</h3>
+    <h3><img class="org-logo" src="{{ '/assets/logos/hku.png' | relative_url }}" alt="" width="28" height="28"> The University of Hong Kong</h3>
     <span class="job-place">Hong Kong</span>
   </div>
   <p class="role-line"><span class="role">Research Assistant</span><span class="when">Jul 2022 – May 2023</span></p>
@@ -52,7 +52,7 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
 
 <div class="job">
   <div class="job-head">
-    <h3>Lora Technologies</h3>
+    <h3><img class="org-logo" src="{{ '/assets/logos/lora.png' | relative_url }}" alt="" width="28" height="28"> Lora Technologies</h3>
     <span class="job-place">Hong Kong</span>
   </div>
   <p class="role-line"><span class="role">Research Assistant</span><span class="when">Jun 2022 – Jul 2023</span></p>
@@ -64,7 +64,7 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
 
 <div class="job">
   <div class="job-head">
-    <h3>Saint Mary's University</h3>
+    <h3><img class="org-logo" src="{{ '/assets/logos/smu.png' | relative_url }}" alt="" width="28" height="28"> Saint Mary's University</h3>
     <span class="job-place">Halifax, Nova Scotia, Canada</span>
   </div>
   <p class="role-line"><span class="role">MITACS Globalink Research Intern</span><span class="when">Jul 2021 – Oct 2021</span></p>
@@ -78,7 +78,7 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
 
 <div class="job">
   <div class="job-head">
-    <h3>The University of Hong Kong</h3>
+    <h3><img class="org-logo" src="{{ '/assets/logos/hku.png' | relative_url }}" alt="" width="28" height="28"> The University of Hong Kong</h3>
     <span class="job-place">Pok Fu Lam, Hong Kong</span>
   </div>
   <p class="role-line"><span class="role">BEng (CompSc) in Computer Science, Minor in Statistics</span><span class="when">Sep 2019 – Jun 2023</span></p>
