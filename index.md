@@ -11,7 +11,7 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
 
 <div class="job">
   <div class="job-head">
-    <img class="org-logo" src="{{ '/assets/logos/huawei.svg' | relative_url }}" alt="" width="32" height="32">
+    <img class="org-logo" src="{{ '/assets/logos/huawei.svg' | relative_url }}" alt="" width="64" height="64">
     <div class="job-id">
       <h3>Huawei Technologies</h3>
       <span class="job-place">Hong Kong</span>
@@ -20,17 +20,17 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
   <p class="role-line has-team"><span class="role">L15 • Engineer A</span><span class="team">Interdisciplinary Technology Innovation Center</span><span class="when">Dec 2026 – Present</span></p>
   <p class="role-line has-team"><span class="role">L14 • Engineer B</span><span class="team">Theory Lab</span><span class="when">Feb 2024 – Dec 2026</span></p>
   <ul class="points">
-    <li>Led intern work on prefill/decode and NPU kernels for Storage and Consumer.</li>
-    <li>Built an Ascend prefill serving engine, later adopted into vLLM-Ascend.</li>
-    <li>Optimized ViT models for pathology slides in ModelEngine V26.0.</li>
-    <li>Built a multimodal knowledge-graph pipeline for RAG.</li>
-    <li>Added hierarchical clustering to <a href="https://github.com/erikbern/ann-benchmarks">kgn</a>, a top-3 in-memory ANN method.</li>
+    <li>Led a team of three interns on prefill and decode optimization for text and multimodal embedding, reranking, and OCR models, and on automated NPU kernel-generation pipelines for Data Storage and Consumer Business Group product lines.</li>
+    <li>Built a serving engine on Ascend NPUs for prefill-only models that outperforms vLLM-Ascend and TEI; the approach was adopted into vLLM-Ascend for the Data Storage product line.</li>
+    <li>Optimized ViT-based architectures for automated feature extraction from whole-slide pathology images in Huawei ModelEngine V26.0, released as an open-source collaboration with Ruijin Hospital, Shanghai.</li>
+    <li>Collaborated on a text and multimodal knowledge-graph extraction pipeline for retrieval-augmented generation, with hierarchical granularity, self-repairing triplets, elastic schema induction, and intent-driven entity–event disambiguation, and on a unified multi-relation graph from raw sources for the Data Storage product line and Huawei MindSDK.</li>
+    <li>Contributed to a top-3 SOTA in-memory ANN method, <a href="https://github.com/erikbern/ann-benchmarks">Knowledge Graph Neighbours (kgn)</a>, by adding hierarchical clustering for vector search to raise query throughput for Terminal and Cloud Storage product lines.</li>
   </ul>
 </div>
 
 <div class="job">
   <div class="job-head">
-    <img class="org-logo" src="{{ '/assets/logos/byq.png' | relative_url }}" alt="" width="32" height="32">
+    <img class="org-logo" src="{{ '/assets/logos/byq.png' | relative_url }}" alt="" width="64" height="64">
     <div class="job-id">
       <h3>B.Y. Quantitative Medicine</h3>
       <span class="job-place">Hong Kong</span>
@@ -39,15 +39,15 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
   <p class="role-line"><span class="role">Junior Research Scientist</span><span class="when">Aug 2023 – Feb 2024</span></p>
   <p class="role-line"><span class="role">Research Intern</span><span class="when">Dec 2022 – May 2023</span></p>
   <ul class="points">
-    <li>Mixture-of-experts model for ovarian cancer drug-resistance prediction.</li>
-    <li>Harmonized hospital genetic datasets across hardware encodings.</li>
-    <li>Wrote research docs and stakeholder presentations.</li>
+    <li>Built a mixture-of-experts stack for cancer drug-resistance prediction, improving performance on ovarian cancer subtypes from Hong Kong hospital data to help clinicians choose chemotherapy combinations.</li>
+    <li>Standardized ovarian cancer datasets with nonparametric statistical modeling so genetic encodings from different hardware could be used together in later analysis.</li>
+    <li>Wrote documentation and presentations that explained the research workflow to external stakeholders.</li>
   </ul>
 </div>
 
 <div class="job">
   <div class="job-head">
-    <img class="org-logo" src="{{ '/assets/logos/hku.png' | relative_url }}" alt="" width="32" height="32">
+    <img class="org-logo" src="{{ '/assets/logos/hku.png' | relative_url }}" alt="" width="64" height="64">
     <div class="job-id">
       <h3>The University of Hong Kong</h3>
       <span class="job-place">Hong Kong</span>
@@ -55,13 +55,13 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
   </div>
   <p class="role-line"><span class="role">Research Assistant</span><span class="when">Jul 2022 – May 2023</span></p>
   <ul class="points">
-    <li>Retrieval pipeline for Hong Kong judgments: HTML to Markdown, keywords, topics, summaries.</li>
+    <li>Built an information-retrieval pipeline for Hong Kong legal judgments: converting HTML to Markdown, then keyword extraction, topic modeling, and transformer summarization to surface post-hoc insights and retrieve related rules.</li>
   </ul>
 </div>
 
 <div class="job">
   <div class="job-head">
-    <img class="org-logo" src="{{ '/assets/logos/lora.png' | relative_url }}" alt="" width="32" height="32">
+    <img class="org-logo" src="{{ '/assets/logos/lora.png' | relative_url }}" alt="" width="64" height="64">
     <div class="job-id">
       <h3>Lora Technologies</h3>
       <span class="job-place">Hong Kong</span>
@@ -69,14 +69,14 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
   </div>
   <p class="role-line"><span class="role">Research Assistant</span><span class="when">Jun 2022 – Jul 2023</span></p>
   <ul class="points">
-    <li>News-scouting ETL into ScyllaDB, with relevance scoring.</li>
-    <li>Market-sentiment indicator from in-house news.</li>
+    <li>Designed a news-scouting ETL pipeline that scored article relevance, dropped stale items, and migrated results into ScyllaDB for faster column-oriented analysis.</li>
+    <li>Built a regression-based market-sentiment indicator for equities and indexes from in-house news data, to study retail trading activity after the fact.</li>
   </ul>
 </div>
 
 <div class="job">
   <div class="job-head">
-    <img class="org-logo" src="{{ '/assets/logos/smu.png' | relative_url }}" alt="" width="32" height="32">
+    <img class="org-logo" src="{{ '/assets/logos/smu.png' | relative_url }}" alt="" width="64" height="64">
     <div class="job-id">
       <h3>Saint Mary's University</h3>
       <span class="job-place">Halifax, Canada</span>
@@ -84,8 +84,8 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
   </div>
   <p class="role-line"><span class="role">MITACS Globalink Research Intern</span><span class="when">Jul 2021 – Oct 2021</span></p>
   <ul class="points">
-    <li>Topic-modeled Fortune 500 CSR reports.</li>
-    <li>Found a late-2010s rise in DE&amp;I language.</li>
+    <li>Built a pipeline to clean Fortune 500 CSR reports, extract keyword usage with topic modeling, and store the results for later analysis.</li>
+    <li>Visual analysis showed a clear rise in DE&amp;I-related language in the late 2010s compared with earlier decades.</li>
   </ul>
 </div>
 
@@ -93,7 +93,7 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
 
 <div class="job">
   <div class="job-head">
-    <img class="org-logo" src="{{ '/assets/logos/hku.png' | relative_url }}" alt="" width="32" height="32">
+    <img class="org-logo" src="{{ '/assets/logos/hku.png' | relative_url }}" alt="" width="64" height="64">
     <div class="job-id">
       <h3>The University of Hong Kong</h3>
       <span class="job-place">Hong Kong</span>
@@ -101,15 +101,16 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
   </div>
   <p class="role-line"><span class="role">BEng in Computer Science, minor in Statistics</span><span class="when">Sep 2019 – Jun 2023</span></p>
   <ul class="points">
-    <li>Teaching assistant, COMP1117 / ENGG1330, Python, Fall 2020 and Spring 2021.</li>
+    <li><strong>Teaching assistant:</strong> COMP1117 / ENGG1330, Introduction to Programming in Python, Fall 2020 and Spring 2021.</li>
   </ul>
-  <ul class="awards">
-    <li>Entrance Scholarship for Outstanding Academic Talents, USD 21,000</li>
-    <li>Entrance Foundation Scholarship, USD 63,000</li>
-    <li>Dean’s Fund for Research, USD 3,200</li>
-    <li>CS Research Scholarship, USD 2,300</li>
-    <li>MITACS Globalink Research Scholarship, USD 2,200</li>
-  </ul>
+  <p class="awards-label">Awards</p>
+  <dl class="awards">
+    <div><dt>HKU Entrance Scholarship for Outstanding Academic Talents</dt><dd>USD 21,000</dd></div>
+    <div><dt>HKU Entrance Foundation Scholarship</dt><dd>USD 63,000</dd></div>
+    <div><dt>HKU Dean’s Fund for Research</dt><dd>USD 3,200</dd></div>
+    <div><dt>HKU-CS Research Scholarship</dt><dd>USD 2,300</dd></div>
+    <div><dt>MITACS Globalink Research Scholarship</dt><dd>USD 2,200</dd></div>
+  </dl>
 </div>
 
 ## Publications
@@ -126,4 +127,4 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
   </li>
 </ol>
 
-**_Disclaimer:_** Opinions are my own and do not reflect those of my employer.
+<p class="disclaimer"><strong><em>Disclaimer:</em></strong> Opinions are my own and do not reflect those of my employer.</p>
