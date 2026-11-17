@@ -8,7 +8,7 @@
     <title>{{ page.title }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+Bengali:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <!--
     <script>
@@ -26,6 +26,8 @@
     <div class="page">
         <header class="site-header">
             <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title | default: "blog" }}</a></h1>
+            <p class="site-native" lang="bn">সংকলক সেন</p>
+            <p class="site-place">Hong Kong</p>
             <nav>
                 <a href="{{ '/' | relative_url }}">Home</a>
                 <a href="{{ '/blog/blog_base' | relative_url }}" aria-current="page">Blog</a>
@@ -33,6 +35,10 @@
                 <a href="https://github.com/sankalok">Github</a>
                 <a href="https://scholar.google.com/citations?user=NlxRNrUAAAAJ&hl=en">Scholar</a>
             </nav>
+            <p class="site-contact">
+                <a href="mailto:ssen2001@connect.hku.hk">ssen2001@connect.hku.hk</a>
+                <a href="tel:+85297101537">+852 9710 1537</a>
+            </p>
         </header>
 
         <main class="markdown-content">
