@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f0f6ff">
+    <meta name="theme-color" content="#f5f7fb">
     <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" type="image/png">
     <title>{{ page.title }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,12 +23,12 @@
 -->
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>{{ site.title | default: "blog" }}</h1>
+    <div class="page">
+        <header class="site-header">
+            <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title | default: "blog" }}</a></h1>
             <nav>
                 <a href="{{ '/' | relative_url }}">Home</a>
-                <a href="{{ '/blog/blog_base' | relative_url }}">Blog</a>
+                <a href="{{ '/blog/blog_base' | relative_url }}" aria-current="page">Blog</a>
                 <a href="{{ '/assets/cv.pdf' | relative_url }}">Resume</a>
                 <a href="https://github.com/sankalok">Github</a>
                 <a href="https://scholar.google.com/citations?user=NlxRNrUAAAAJ&hl=en">Scholar</a>
