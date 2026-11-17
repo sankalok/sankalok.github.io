@@ -1,15 +1,20 @@
 :root {
-    --page-bg: #f3f5f8;
-    --text: #16181d;
-    --text-muted: #5d6570;
-    --link: #1657d4;
-    --link-hover: #0e45b0;
-    --border: #e2e7ee;
-    --selection: #dce8fb;
+    --page-bg: #e8ecf2;
+    --surface: #ffffff;
+    --text: #12141a;
+    --text-muted: #5c6470;
+    --link: #2c56d8;
+    --link-hover: #1d3fb4;
+    --accent: #2c56d8;
+    --border: #e3e8f0;
+    --selection: #d7e3ff;
     --chip: #ffffff;
+    --nav-active: #e8eeff;
     --font: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
     --measure: 44rem;
     --rail: 18.5rem;
+    --radius: 1rem;
+    --shadow: 0 1px 2px rgba(18, 20, 26, 0.04), 0 10px 28px rgba(18, 20, 26, 0.05);
 }
 
 *,
@@ -21,12 +26,15 @@
 html {
     -webkit-text-size-adjust: 100%;
     color-scheme: light;
+    background: var(--page-bg);
 }
 
 body {
     margin: 0;
     min-height: 100vh;
-    background: var(--page-bg);
+    background:
+        radial-gradient(48rem 28rem at 8% -8%, rgba(255, 255, 255, 0.85), transparent 62%),
+        var(--page-bg);
     color: var(--text);
     font-family: var(--font);
     font-size: 1.0625rem;
@@ -43,7 +51,7 @@ body {
 
 .site-header {
     margin-bottom: 2rem;
-    padding-bottom: 1.35rem;
+    padding-bottom: 1.5rem;
     border-bottom: 1px solid var(--border);
 }
 
@@ -55,16 +63,18 @@ body {
     object-fit: cover;
     object-position: center 12%;
     border-radius: 50%;
-    border: 1px solid var(--border);
-    box-shadow: 0 12px 32px rgba(22, 24, 29, 0.08);
+    border: 3px solid #fff;
+    box-shadow:
+        0 0 0 1px var(--border),
+        0 16px 40px rgba(18, 20, 26, 0.1);
 }
 
 .site-title {
     margin: 0;
-    font-size: 2.25rem;
+    font-size: 2.3rem;
     font-weight: 600;
-    letter-spacing: -0.045em;
-    line-height: 1.1;
+    letter-spacing: -0.05em;
+    line-height: 1.08;
 }
 
 .site-title a {
@@ -77,57 +87,80 @@ body {
 }
 
 .site-place {
-    margin: 0.4rem 0 0;
-    font-size: 0.95rem;
+    margin: 0.45rem 0 0;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
     color: var(--text-muted);
 }
 
 nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.35rem 1.15rem;
-    margin-top: 1.2rem;
-    font-size: 0.98rem;
+    gap: 0.35rem;
+    margin-top: 1.15rem;
 }
 
 nav a {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.32rem 0.78rem;
+    border-radius: 999px;
     color: var(--text-muted);
-    transition: color 0.15s ease;
+    font-size: 0.88rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    transition: color 0.15s ease, background 0.15s ease;
 }
 
 nav a[aria-current="page"] {
+    background: var(--nav-active);
     color: var(--text);
 }
 
 nav a:hover {
     color: var(--link);
     text-decoration: none;
+    background: rgba(44, 86, 216, 0.08);
 }
 
 h1,
 h2,
 h3 {
     line-height: 1.25;
+    text-wrap: balance;
 }
 
 .markdown-content h2 {
-    margin: 3.5rem 0 1.35rem;
-    font-size: 0.72rem;
+    margin: 2.85rem 0 1rem;
+    font-size: 0.7rem;
     font-weight: 600;
-    letter-spacing: 0.16em;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--text-muted);
 }
 
+.markdown-content h2::after {
+    content: "";
+    display: block;
+    width: 1.15rem;
+    height: 2px;
+    margin-top: 0.5rem;
+    background: var(--accent);
+    border-radius: 1px;
+    opacity: 0.55;
+}
+
 .markdown-content h2:first-child {
-    margin-top: 0.15rem;
+    margin-top: 0.1rem;
 }
 
 .markdown-content h3 {
     margin: 0;
-    font-size: 1.05rem;
+    font-size: 1.08rem;
     font-weight: 600;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.025em;
 }
 
 a {
@@ -156,18 +189,31 @@ a:focus-visible {
     margin-bottom: 0;
 }
 
+.markdown-content h2:first-child + p {
+    font-size: 1.08rem;
+    line-height: 1.75;
+    color: #25282f;
+    text-wrap: pretty;
+}
+
+.job,
+.honors,
+.pubs {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
 .job {
     --logo: 4.75rem;
     --logo-gap: 0.95rem;
-    margin: 0 0 2rem;
-    padding-bottom: 1.75rem;
-    border-bottom: 1px solid var(--border);
+    margin: 0 0 0.85rem;
+    padding: 1.15rem 1.2rem 1.2rem;
 }
 
 .job:last-of-type {
     margin-bottom: 0;
-    padding-bottom: 0;
-    border-bottom: 0;
 }
 
 .job-head {
@@ -186,8 +232,7 @@ a:focus-visible {
     object-fit: contain;
     background: var(--chip);
     border: 1px solid var(--border);
-    border-radius: 12px;
-    box-shadow: 0 1px 2px rgba(22, 24, 29, 0.04);
+    border-radius: 0.75rem;
 }
 
 .job-id {
@@ -195,7 +240,7 @@ a:focus-visible {
 }
 
 .job-head h3 {
-    font-size: 1.12rem;
+    font-size: 1.1rem;
     text-align: left;
 }
 
@@ -203,7 +248,7 @@ a:focus-visible {
     display: block;
     margin-top: 0.14rem;
     color: var(--text-muted);
-    font-size: 0.86rem;
+    font-size: 0.84rem;
     text-align: left;
 }
 
@@ -222,10 +267,10 @@ a:focus-visible {
 }
 
 .role-line .role {
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     font-weight: 500;
     font-variant: small-caps;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.06em;
 }
 
 .role-line .team {
@@ -236,7 +281,7 @@ a:focus-visible {
 .role-line .when {
     color: var(--text-muted);
     font-variant-numeric: tabular-nums;
-    font-size: 0.84rem;
+    font-size: 0.82rem;
     white-space: nowrap;
     justify-self: end;
 }
@@ -260,13 +305,13 @@ a:focus-visible {
 
 .honors {
     margin: 0;
-    padding-left: 1.15rem;
+    padding: 1.05rem 1.25rem 1.05rem 2.2rem;
     font-size: 0.72rem;
     color: var(--text);
 }
 
 .honors li {
-    margin: 0 0 0.42rem;
+    margin: 0 0 0.45rem;
     padding: 0;
     line-height: 1.55;
 }
@@ -278,27 +323,30 @@ a:focus-visible {
 .pubs {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0.25rem 1.2rem 0.35rem;
     counter-reset: pub;
-    border-top: 1px solid var(--border);
 }
 
 .pubs li {
     counter-increment: pub;
     position: relative;
     margin: 0;
-    padding: 0.85rem 0 0.85rem 1.7rem;
+    padding: 0.9rem 0 0.9rem 1.7rem;
     border-bottom: 1px solid var(--border);
-    line-height: 1.5;
+    line-height: 1.55;
+}
+
+.pubs li:last-child {
+    border-bottom: 0;
 }
 
 .pubs li::before {
     content: counter(pub);
     position: absolute;
     left: 0;
-    top: 0.9rem;
+    top: 0.95rem;
     color: var(--text-muted);
-    font-size: 0.86rem;
+    font-size: 0.8rem;
     font-variant-numeric: tabular-nums;
 }
 
@@ -311,9 +359,9 @@ a:focus-visible {
 }
 
 .markdown-content pre {
-    background: rgba(22, 87, 212, 0.06);
+    background: rgba(44, 86, 216, 0.06);
     padding: 1rem 1.1rem;
-    border-radius: 8px;
+    border-radius: 0.75rem;
     overflow-x: auto;
 }
 
@@ -324,16 +372,15 @@ a:focus-visible {
 
 .markdown-content > p:has(> strong),
 .disclaimer {
-    margin-top: 2.75rem;
+    margin-top: 2.25rem;
     color: var(--text-muted);
-    font-size: 0.9rem;
+    font-size: 0.84rem;
 }
 
 footer {
-    margin-top: 2.75rem;
-    padding-top: 1.15rem;
-    border-top: 1px solid var(--border);
-    font-size: 0.86rem;
+    margin-top: 2.25rem;
+    padding-top: 0.25rem;
+    font-size: 0.82rem;
     color: var(--text-muted);
 }
 
@@ -366,8 +413,8 @@ footer p {
     nav {
         flex-direction: column;
         align-items: flex-start;
-        gap: 0.4rem;
-        margin-top: 1.4rem;
+        gap: 0.3rem;
+        margin-top: 1.45rem;
     }
 
     main {
@@ -376,21 +423,21 @@ footer p {
 
     footer {
         grid-column: 2;
-        margin-top: 3rem;
+        margin-top: 2.5rem;
     }
 }
 
 @media (max-width: 839px) {
     .page {
-        width: min(42rem, calc(100% - 2rem));
-        padding: 1.75rem 0 2.5rem;
+        width: min(42rem, calc(100% - 1.75rem));
+        padding: 1.5rem 0 2.5rem;
     }
 
     .site-header {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding-bottom: 1.5rem;
+        padding-bottom: 1.35rem;
     }
 
     .site-photo {
@@ -404,16 +451,27 @@ footer p {
     }
 
     .site-place {
-        margin-top: 0.2rem;
+        margin-top: 0.25rem;
     }
 
     nav {
-        margin-top: 0.7rem;
+        margin-top: 0.85rem;
     }
 
     .job {
         --logo: 4.25rem;
         --logo-gap: 0.8rem;
+        padding: 1rem 1.05rem 1.1rem;
+    }
+
+    .honors,
+    .pubs {
+        padding-left: 1.15rem;
+        padding-right: 1.05rem;
+    }
+
+    .honors {
+        padding-left: 1.9rem;
     }
 
     .role-line,
