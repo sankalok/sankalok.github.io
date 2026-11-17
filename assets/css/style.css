@@ -1,10 +1,12 @@
 :root {
-    --page-bg: #f5f7fb;
-    --text: #141414;
-    --text-muted: #667085;
+    --page-bg: #eef4fc;
+    --text: #12141a;
+    --text-muted: #5a6472;
     --link: #005eff;
-    --link-hover: #0046c4;
-    --border: #e4e9f1;
+    --link-hover: #0047cc;
+    --border: #d5deea;
+    --row-hover: rgba(0, 94, 255, 0.045);
+    --selection: #d4e3ff;
     --font: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
     --measure: 40rem;
     --rail: 15.5rem;
@@ -29,6 +31,8 @@ body {
     font-family: var(--font);
     font-size: 1.0625rem;
     line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .page {
@@ -70,14 +74,15 @@ nav {
 
 nav a {
     color: var(--text-muted);
+    transition: color 0.15s ease;
 }
 
-nav a:hover,
 nav a[aria-current="page"] {
     color: var(--text);
 }
 
 nav a:hover {
+    color: var(--link);
     text-decoration: none;
 }
 
@@ -109,12 +114,13 @@ h3 {
 a {
     color: var(--link);
     text-decoration: none;
+    text-underline-offset: 0.18em;
+    transition: color 0.15s ease;
 }
 
 a:hover {
     color: var(--link-hover);
     text-decoration: underline;
-    text-underline-offset: 0.18em;
 }
 
 a:focus-visible {
@@ -146,6 +152,11 @@ a:focus-visible {
     padding: 1.05rem 0 1.05rem 2.1rem;
     border-bottom: 1px solid var(--border);
     line-height: 1.55;
+    transition: background-color 0.15s ease;
+}
+
+.markdown-content ol li:hover {
+    background-color: var(--row-hover);
 }
 
 .markdown-content ol li::before {
@@ -167,7 +178,7 @@ a:focus-visible {
 }
 
 .markdown-content pre {
-    background: #eef2f8;
+    background: rgba(0, 94, 255, 0.06);
     padding: 1rem 1.1rem;
     border-radius: 8px;
     overflow-x: auto;
@@ -197,7 +208,7 @@ footer p {
 }
 
 ::selection {
-    background: #d7e6ff;
+    background: var(--selection);
 }
 
 @media (min-width: 840px) {
