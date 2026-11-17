@@ -11,7 +11,7 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
 
 <div class="job">
   <div class="job-head">
-    <img class="org-logo" src="{{ '/assets/logos/huawei.svg' | relative_url }}" alt="" width="64" height="64">
+    <img class="org-logo" src="{{ '/assets/logos/huawei.svg' | relative_url }}" alt="" width="80" height="80">
     <div class="job-id">
       <h3>Huawei Technologies</h3>
       <span class="job-place">Hong Kong</span>
@@ -30,7 +30,7 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
 
 <div class="job">
   <div class="job-head">
-    <img class="org-logo" src="{{ '/assets/logos/byq.png' | relative_url }}" alt="" width="64" height="64">
+    <img class="org-logo" src="{{ '/assets/logos/byq.png' | relative_url }}" alt="" width="80" height="80">
     <div class="job-id">
       <h3>B.Y. Quantitative Medicine</h3>
       <span class="job-place">Hong Kong</span>
@@ -47,7 +47,7 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
 
 <div class="job">
   <div class="job-head">
-    <img class="org-logo" src="{{ '/assets/logos/hku.png' | relative_url }}" alt="" width="64" height="64">
+    <img class="org-logo" src="{{ '/assets/logos/hku.png' | relative_url }}" alt="" width="80" height="80">
     <div class="job-id">
       <h3>The University of Hong Kong</h3>
       <span class="job-place">Hong Kong</span>
@@ -61,7 +61,7 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
 
 <div class="job">
   <div class="job-head">
-    <img class="org-logo" src="{{ '/assets/logos/lora.png' | relative_url }}" alt="" width="64" height="64">
+    <img class="org-logo" src="{{ '/assets/logos/lora.png' | relative_url }}" alt="" width="80" height="80">
     <div class="job-id">
       <h3>Lora Technologies</h3>
       <span class="job-place">Hong Kong</span>
@@ -76,7 +76,7 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
 
 <div class="job">
   <div class="job-head">
-    <img class="org-logo" src="{{ '/assets/logos/smu.png' | relative_url }}" alt="" width="64" height="64">
+    <img class="org-logo" src="{{ '/assets/logos/smu.png' | relative_url }}" alt="" width="80" height="80">
     <div class="job-id">
       <h3>Saint Mary's University</h3>
       <span class="job-place">Halifax, Canada</span>
@@ -93,7 +93,7 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
 
 <div class="job">
   <div class="job-head">
-    <img class="org-logo" src="{{ '/assets/logos/hku.png' | relative_url }}" alt="" width="64" height="64">
+    <img class="org-logo" src="{{ '/assets/logos/hku.png' | relative_url }}" alt="" width="80" height="80">
     <div class="job-id">
       <h3>The University of Hong Kong</h3>
       <span class="job-place">Hong Kong</span>
@@ -101,16 +101,9 @@ Hello, my name is Sankalok (pronounced shaun-ko-lock). I like thinking deeply ab
   </div>
   <p class="role-line"><span class="role">BEng in Computer Science, minor in Statistics</span><span class="when">Sep 2019 – Jun 2023</span></p>
   <ul class="points">
-    <li><strong>Teaching assistant:</strong> COMP1117 / ENGG1330, Introduction to Programming in Python, Fall 2020 and Spring 2021.</li>
+    <li><strong>Teaching Assistant:</strong> COMP1117 / ENGG1330, Introduction to Programming in Python, Fall 2020 and Spring 2021.</li>
+    <li><strong>Awards:</strong> HKU Entrance Scholarship for Outstanding Academic Talents (USD 21,000); HKU Entrance Foundation Scholarship (USD 63,000); HKU Dean’s Fund for Research (USD 3,200); HKU-CS Research Scholarship (USD 2,300); MITACS Globalink Research Scholarship (USD 2,200).</li>
   </ul>
-  <p class="awards-label">Awards</p>
-  <dl class="awards">
-    <div><dt>HKU Entrance Scholarship for Outstanding Academic Talents</dt><dd>USD 21,000</dd></div>
-    <div><dt>HKU Entrance Foundation Scholarship</dt><dd>USD 63,000</dd></div>
-    <div><dt>HKU Dean’s Fund for Research</dt><dd>USD 3,200</dd></div>
-    <div><dt>HKU-CS Research Scholarship</dt><dd>USD 2,300</dd></div>
-    <div><dt>MITACS Globalink Research Scholarship</dt><dd>USD 2,200</dd></div>
-  </dl>
 </div>
 
 ## Publications
