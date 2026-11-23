@@ -17,8 +17,8 @@ title: Sankalok Sen
       <span class="job-place">Hong Kong</span>
     </div>
   </div>
-  <p class="role-line has-team"><span class="role">L15 • Engineer A</span><span class="team">Interdisciplinary Technology Innovation Center</span><span class="when">Dec 2026 – Present</span></p>
-  <p class="role-line has-team"><span class="role">L14 • Engineer B</span><span class="team">Theory Lab</span><span class="when">Feb 2024 – Dec 2026</span></p>
+  <p class="role-line has-team"><span class="role">Software Engineer A</span><span class="team">Interdisciplinary Technology Innovation Center</span><span class="when">Dec 2026 – Present</span></p>
+  <p class="role-line has-team"><span class="role">Software Engineer B</span><span class="team">Theory Lab</span><span class="when">Feb 2024 – Dec 2026</span></p>
   <ul class="points">
     <li>Led a team of three interns on prefill and decode optimization for text and multimodal embedding, reranking, and OCR models, and on automated NPU kernel-generation pipelines for Data Storage and Consumer Business Group product lines.</li>
     <li>Built a serving engine on Ascend NPUs for prefill-only models that outperforms vLLM-Ascend and TEI; the approach was adopted into vLLM-Ascend for the Data Storage product line.</li>
